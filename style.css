@@ -8,11 +8,11 @@
 }
 
 body {
-    background-color: #353535;
+    background-color: #38618C;
 }
 
 header {
-    background-color: #515151;
+    background-color: #BF0603;
     padding: 0 15px;
     height: 55px;
     display: flex;
@@ -24,7 +24,7 @@ header {
 header>h1 {
     font-size: 1.3rem;
     font-weight: 700;
-    color: #EBEBEB;
+    color: #CCC9A1;
 }
 
 main {
@@ -36,9 +36,9 @@ main {
 aside {
     width: 100%;
     max-width: 270px;
-    background-color: #252525;
-    padding: 30px 20px 20px;
+    background-color: #CCC9A1;
     min-height: calc(100dvh - 55px);
+    padding: 30px 20px 20px;
 }
 
 .canvas {
@@ -58,13 +58,12 @@ aside {
 
 .pixel {
     width: 100%;
+    background-color: #CCC9A1;
     aspect-ratio: 1;
-    background-color: #444;
-    user-select: none;
 }
 
 .option-title {
-    color: #EBEBEB;
+    color: #38618C;
     font-size: 1rem;
     font-weight: 600;
     display: block;
@@ -77,7 +76,7 @@ aside {
     border-radius: 5px;
     font-size: 0.85rem;
     font-weight: 700;
-    color: #252525;
+    color: #BF0603;
     outline: none;
     margin: 10px 0 20px;
 }
@@ -130,13 +129,13 @@ aside {
 }
 
 .button-save:hover {
-    background-color: #ccc;
+    background-color: #CCC;
 }
 
 .resize {
     height: 720px;
     width: 3px;
-    background-color: #444;
+    background-color: #CCC9A1;
     margin-top: 20px;
     cursor: col-resize;
 }
